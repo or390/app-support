@@ -14,7 +14,8 @@
         </header>
 
         <main>
-            <p class="effective-date"><strong>Effective Date:</strong> January 1, 2025</p>
+            <p class="effective-date"><strong>Effective Date:</strong> October 4, 2025</p>
+            <p class="effective-date"><strong>Last Updated:</strong> October 4, 2025</p>
 
             <section>
                 <h2>Introduction</h2>
@@ -23,74 +24,124 @@
 
             <section>
                 <h2>Information We Do NOT Collect</h2>
-                <p>WhatIf is designed with privacy in mind. We do not collect, store, transmit, or share any of the following:</p>
+                <p>WhatIf is designed with privacy in mind. We do not collect, store, transmit to our servers, or share any of the following:</p>
                 <ul>
-                    <li>Personal identification information</li>
-                    <li>Email addresses or contact information</li>
-                    <li>Financial account information</li>
-                    <li>Investment portfolio data</li>
-                    <li>Search queries or calculation history</li>
-                    <li>Device identifiers or advertising IDs</li>
-                    <li>Location data</li>
-                    <li>Analytics or usage data</li>
+                    <li>Personal identification information (name, email, phone number)</li>
+                    <li>Financial account information or credentials</li>
+                    <li>Actual investment portfolio data or holdings</li>
+                    <li>Payment information</li>
+                    <li>Device identifiers for tracking purposes</li>
+                    <li>Advertising IDs</li>
+                    <li>Precise location data</li>
+                    <li>Usage analytics or behavioral tracking data</li>
+                    <li>IP addresses or browsing history</li>
                 </ul>
+                <p><strong>We have no servers or databases storing your personal information.</strong></p>
             </section>
 
             <section>
                 <h2>Local Data Storage</h2>
-                <p>The App stores certain information locally on your device for functionality purposes:</p>
+                <p>The App stores certain information locally on your device solely for functionality purposes. This data never leaves your device:</p>
                 <ul>
-                    <li><strong>Recent searches:</strong> Your recent stock and cryptocurrency searches are stored locally on your device to provide quick access and improve your experience</li>
-                    <li><strong>Cached data:</strong> Historical price data is temporarily cached on your device to reduce loading times</li>
-                    <li><strong>App preferences:</strong> Your settings and preferences are stored locally</li>
+                    <li><strong>Search history:</strong> Stock and cryptocurrency ticker symbols you've searched (e.g., "AAPL", "BTC") are stored locally to provide quick access to recent searches</li>
+                    <li><strong>Cached price data:</strong> Historical price data retrieved from third-party APIs is temporarily cached on your device to reduce loading times and API requests</li>
+                    <li><strong>Calculation results:</strong> Your investment calculations and comparisons are stored locally for your reference</li>
+                    <li><strong>App preferences:</strong> Your settings (such as preferred investment frequency or selected assets) are stored locally</li>
                 </ul>
-                <p>This data never leaves your device and is automatically deleted if you uninstall the App.</p>
+                <p><strong>Important:</strong> All locally stored data is protected by your device's security features and is automatically deleted when you uninstall the App. No backup of this data is sent to our servers or iCloud.</p>
             </section>
 
             <section>
-                <h2>Third-Party Services</h2>
-                <p>The App uses third-party financial data providers to retrieve historical stock and cryptocurrency prices. When you search for an asset, the App sends requests to these services containing only the asset symbol (e.g., "AAPL" or "BTC"). These requests do not contain any personal information about you.</p>
+                <h2>Third-Party Data Services</h2>
+                <p>To provide historical stock and cryptocurrency price data, the App sends requests to third-party financial data providers. These requests contain only:</p>
+                <ul>
+                    <li>Asset ticker symbols (e.g., "AAPL", "BTC", "ETH")</li>
+                    <li>Date ranges for historical data</li>
+                    <li>Standard HTTP request headers (user agent, timestamp)</li>
+                </ul>
+                <p><strong>These requests do NOT contain any personally identifiable information about you.</strong></p>
+                
                 <p>We use the following data providers:</p>
                 <ul>
-                    <li>Yahoo Finance</li>
-                    <li>CryptoCompare</li>
+                    <li><strong>Yahoo Finance</strong> - for stock market data</li>
+                    <li><strong>CryptoCompare</strong> - for cryptocurrency data</li>
                 </ul>
-                <p>These services may have their own privacy policies regarding the data they collect from API requests. We recommend reviewing their policies if you have concerns.</p>
+                
+                <p>These third-party services may log API requests (including timestamp, requested symbols, and IP address) for their own operational purposes. We recommend reviewing their privacy policies:</p>
+                <ul>
+                    <li>Yahoo Finance: <a href="https://legal.yahoo.com/us/en/yahoo/privacy/index.html" target="_blank">Privacy Policy</a></li>
+                    <li>CryptoCompare: <a href="https://www.cryptocompare.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Apple Services</h2>
+                <p>When you download WhatIf from the App Store, Apple may collect standard information such as:</p>
+                <ul>
+                    <li>Download and installation data</li>
+                    <li>Crash reports (if you opt-in to share diagnostics with Apple)</li>
+                    <li>App Store review data</li>
+                </ul>
+                <p>This data is collected by Apple, not by us. Please refer to <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a> for details.</p>
             </section>
 
             <section>
                 <h2>Data Security</h2>
-                <p>Since we don't collect or transmit your personal data to our servers, there is no centralized database that could be compromised. All data is stored locally on your device and protected by your device's security features.</p>
+                <p>Since we don't collect or transmit your personal data to our servers, there is no centralized database that could be compromised. All data remains on your device.</p>
+            </section>
+
+            <section>
+                <h2>Children's Privacy</h2>
+                <p>WhatIf does not knowingly collect any information from children under 13. The App is not directed at children. If you believe a child has used the App, please contact us and we will provide guidance on removing any locally stored data.</p>
+            </section>
+
+            <section>
+                <h2>International Users</h2>
+                <p>WhatIf is available worldwide. When you use third-party data APIs, your requests may be routed through servers in various countries. Since we only send ticker symbols (not personal data), this does not constitute a transfer of personal information.</p>
             </section>
 
             <section>
                 <h2>Changes to This Policy</h2>
-                <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. We encourage you to review this policy periodically.</p>
+                <p>We may update this Privacy Policy from time to time. If we make material changes, we will update the "Last Updated" date at the top of this policy and may notify you through the App or App Store update notes. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
             </section>
 
             <section>
-                <h2>Your Rights</h2>
-                <p>Since we don't collect your personal information, there is no data for us to access, modify, or delete. You have full control over any locally stored data on your device. You can:</p>
+                <h2>Your Rights and Data Control</h2>
+                <p>Since we don't collect your personal information on our servers, there is no data for us to access, modify, export, or delete. You have full control over any locally stored data:</p>
                 <ul>
-                    <li>Clear the App's cache through your device settings</li>
-                    <li>Uninstall the App to remove all locally stored data</li>
+                    <li><strong>Clear cache:</strong> Go to iOS Settings → WhatIf → Clear Cache (if available) or reinstall the app</li>
+                    <li><strong>Delete all data:</strong> Uninstall the App to permanently remove all locally stored information</li>
+                    <li><strong>Opt-out of third-party tracking:</strong> We don't track you, but you can enable "Limit Ad Tracking" in iOS settings to limit tracking by other services</li>
                 </ul>
             </section>
 
             <section>
                 <h2>Contact Us</h2>
                 <p>If you have questions about this Privacy Policy or how the App handles data, please contact us at:</p>
-                <p>Email: <a href="mailto:bluespiderlily6@gmail.com">bluespiderlily6@gmail.com</a></p>
+                <p><strong>Email:</strong> <a href="mailto:bluespiderlily6@gmail.com">bluespiderlily6@gmail.com</a></p>
+                <p>We will respond to privacy inquiries within 30 days.</p>
             </section>
 
             <section>
-                <h2>Educational Purpose Disclaimer</h2>
-                <p>WhatIf is provided for educational and informational purposes only. The App does not provide investment advice, and any calculations or simulations should not be considered as recommendations to buy, sell, or hold any securities or cryptocurrencies. Past performance does not guarantee future results. Always consult with a qualified financial advisor before making investment decisions.</p>
+                <h2>Investment Disclaimer</h2>
+                <p><strong>WhatIf is provided for educational and informational purposes only.</strong> The App does not provide investment advice, financial planning services, or recommendations to buy, sell, or hold any securities or cryptocurrencies. All calculations and simulations are based on historical data and should not be considered as predictions of future performance. Past performance does not guarantee future results.</p>
+                <p>Always consult with a qualified financial advisor before making investment decisions. WhatIf and its developers are not responsible for any financial losses resulting from decisions made based on information provided by the App.</p>
+            </section>
+
+            <section>
+                <h2>Compliance</h2>
+                <p>This privacy policy is designed to comply with:</p>
+                <ul>
+                    <li>California Consumer Privacy Act (CCPA)</li>
+                    <li>General Data Protection Regulation (GDPR)</li>
+                    <li>Apple App Store Guidelines</li>
+                </ul>
+                <p>Since we do not collect personal data, most data protection regulations do not apply to our practices.</p>
             </section>
         </main>
 
         <footer>
-            <p><a href="support.html">Support</a></p>
+            <p><a href="support.html">Support</a> | <a href="index.html">Home</a></p>
             <p>&copy; 2025 WhatIf. All rights reserved.</p>
         </footer>
     </div>
