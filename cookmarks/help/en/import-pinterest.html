@@ -45,23 +45,18 @@
             width: 480px;
             height: 480px;
             max-width: 100%;
-            background: linear-gradient(135deg, #e60023 0%, #bd081c 100%);
             border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 1.2em;
-            font-weight: 500;
+            display: block;
             margin: 0 auto;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
         }
 
         @media (max-width: 768px) {
             .step-image {
                 width: 100%;
                 height: auto;
-                aspect-ratio: 1;
+                aspect-ratio: 1 / 1;
             }
         }
     </style>
@@ -78,22 +73,18 @@
                 <span class="step-number">1</span>
                 <h2 class="step-title">Find Your Recipe Pin</h2>
                 <p class="step-description">
-                    On any pin, tap on the 'Share' button.
+                    On any pin, long press and tap on the 'Share' button.
                 </p>
-                <div class="step-image">
-                    Screenshot 1: Pinterest Recipe Pin
-                </div>
+                <img src="../images/pinterest-step1.jpg" alt="Pinterest Recipe Pin" class="step-image">
             </div>
 
             <div class="step-container">
                 <span class="step-number">2</span>
                 <h2 class="step-title">Open the Share Options</h2>
                 <p class="step-description">
-                    Scroll to the right and, tap on the 'More' button.
+                    Tap on the 'More apps' button.
                 </p>
-                <div class="step-image">
-                    Screenshot 2: Pinterest Share Menu
-                </div>
+                <img src="../images/pinterest-step2.jpg" alt="Pinterest Share Menu" class="step-image">
             </div>
 
             <div class="step-container">
@@ -102,9 +93,7 @@
                 <p class="step-description">
                     Swipe up to expand the share sheet, then tap 'Save to Cookmarks'.
                 </p>
-                <div class="step-image">
-                    Screenshot 3: Cookmarks Import
-                </div>
+                <img src="../images/general-step3.jpg" alt="Cookmarks Import" class="step-image">
             </div>
         </main>
 
