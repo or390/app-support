@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookmarks - Import from YouTube</title>
+    <link rel="stylesheet" href="../../assets/style.css">
+    <style>
+        .step-container {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-left: 4px solid #0071e3;
+        }
+
+        .step-number {
+            display: inline-block;
+            background: #0071e3;
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .step-title {
+            font-size: 1.5em;
+            color: #1d1d1f;
+            margin-bottom: 15px;
+            margin-top: 0;
+        }
+
+        .step-description {
+            font-size: 1.1em;
+            color: #333;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .step-image {
+            width: 480px;
+            height: 480px;
+            max-width: 100%;
+            background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2em;
+            font-weight: 500;
+            margin: 0 auto;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .step-image {
+                width: 100%;
+                height: auto;
+                aspect-ratio: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cookmarks</h1>
+            <p class="subtitle">Import Recipes from YouTube</p>
+        </header>
+
+        <main>
+            <div class="step-container">
+                <span class="step-number">1</span>
+                <h2 class="step-title">Find Your Recipe Video/Short</h2>
+                <p class="step-description">
+                    On any YouTube video or short, tap on the 'Share' button.
+                </p>
+                <div class="step-image">
+                    Screenshot 1: YouTube Recipe Video
+                </div>
+            </div>
+
+            <div class="step-container">
+                <span class="step-number">2</span>
+                <h2 class="step-title">Open the Share Options</h2>
+                <p class="step-description">
+                    Scroll to the right and, tap on the 'More' button.
+                </p>
+                <div class="step-image">
+                    Screenshot 2: YouTube Share Menu
+                </div>
+            </div>
+
+            <div class="step-container">
+                <span class="step-number">3</span>
+                <h2 class="step-title">Save to Cookmarks</h2>
+                <p class="step-description">
+                    Swipe up to expand the share sheet, then tap 'Save to Cookmarks'.
+                </p>
+                <div class="step-image">
+                    Screenshot 3: Cookmarks Import
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Cookmarks. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
