@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Menu - Privacy Policy</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Big Menu</h1>
+            <p class="subtitle">Privacy Policy</p>
+        </header>
+
+        <main>
+            <p class="effective-date"><strong>Effective Date:</strong> November 20, 2024</p>
+            <p class="effective-date"><strong>Last Updated:</strong> November 20, 2024</p>
+
+            <section>
+                <h2>Introduction</h2>
+                <p>Big Menu ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, and protect information when you use the Big Menu mobile application (the "App").</p>
+            </section>
+
+            <section>
+                <h2>Information We Collect</h2>
+
+                <h3>Menu Photos</h3>
+                <p>When you scan or upload a menu photo:</p>
+                <ul>
+                    <li>Photos are temporarily uploaded to our secure servers for processing</li>
+                    <li>Images are analyzed using AI to extract text and translate menu content</li>
+                    <li>Processed images are stored on our servers (Amazon S3) for your menu history</li>
+                    <li>You can delete individual menus at any time, which removes associated images</li>
+                </ul>
+
+                <h3>Location Data</h3>
+                <p>With your permission, we collect GPS location data to:</p>
+                <ul>
+                    <li>Save restaurant locations with your scanned menus</li>
+                    <li>Help you find restaurants you've visited previously</li>
+                    <li>Provide reverse geocoded addresses for saved locations</li>
+                </ul>
+                <p><strong>Note:</strong> Location access is optional. You can use the App without granting location permission. Location data can be disabled at any time in iOS Settings → Big Menu → Location.</p>
+
+                <h3>Local Data Storage</h3>
+                <p>The App stores data locally on your device:</p>
+                <ul>
+                    <li><strong>Translated menus:</strong> Processed menu data with translations and price conversions</li>
+                    <li><strong>App preferences:</strong> Language, currency, and country settings</li>
+                    <li><strong>Menu history:</strong> References to your saved menus</li>
+                </ul>
+                <p>This data is stored using Apple's SwiftData framework and is protected by your device's security features.</p>
+
+                <h3>Subscription Information</h3>
+                <p>We use RevenueCat to manage subscriptions. RevenueCat collects:</p>
+                <ul>
+                    <li>Anonymous user identifiers</li>
+                    <li>Purchase history and subscription status</li>
+                    <li>Device type and iOS version for analytics</li>
+                </ul>
+                <p>For more information, see <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat's Privacy Policy</a>.</p>
+
+                <h3>Information We Do NOT Collect</h3>
+                <ul>
+                    <li>Personal identification information (name, email, phone number)</li>
+                    <li>Advertising IDs or tracking for marketing purposes</li>
+                    <li>Browsing history outside the App</li>
+                    <li>Contact lists or social media data</li>
+                    <li>Payment information (handled by Apple)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>How We Use Your Information</h2>
+                <p>We use collected information to:</p>
+                <ul>
+                    <li><strong>Process menus:</strong> Translate and convert currency for menu items</li>
+                    <li><strong>Provide the service:</strong> Store and retrieve your menu history</li>
+                    <li><strong>Improve the App:</strong> Analyze usage patterns to enhance translation quality</li>
+                    <li><strong>Manage subscriptions:</strong> Track subscription status and free scan usage</li>
+                    <li><strong>Technical support:</strong> Diagnose and fix issues</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Data Storage and Security</h2>
+
+                <h3>Server Storage</h3>
+                <p>Your menu photos and processed data are stored on:</p>
+                <ul>
+                    <li><strong>Amazon S3:</strong> Secure cloud storage for menu images</li>
+                    <li><strong>Backend servers:</strong> Process and store translated menu data</li>
+                </ul>
+                <p>All data transmission uses HTTPS encryption. Server access is restricted and monitored.</p>
+
+                <h3>Data Retention</h3>
+                <ul>
+                    <li>Menu photos and translations are retained as long as you have the menu saved</li>
+                    <li>When you delete a menu, associated images and data are removed from our servers</li>
+                    <li>Processing logs are retained for 30 days for troubleshooting</li>
+                    <li>Subscription data is retained as required by Apple and RevenueCat</li>
+                </ul>
+
+                <h3>Security Measures</h3>
+                <ul>
+                    <li>End-to-end HTTPS encryption for all data transmission</li>
+                    <li>Secure server infrastructure with access controls</li>
+                    <li>Regular security audits and updates</li>
+                    <li>No sharing of data with third parties except as described in this policy</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Third-Party Services</h2>
+                <p>Big Menu integrates with the following third-party services:</p>
+
+                <h3>RevenueCat (Subscription Management)</h3>
+                <p>Manages in-app subscriptions and tracks purchase history. See <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat Privacy Policy</a>.</p>
+
+                <h3>Apple Services</h3>
+                <ul>
+                    <li><strong>App Store:</strong> Handles payments and subscription management</li>
+                    <li><strong>Core Location:</strong> Provides GPS coordinates (with permission)</li>
+                    <li><strong>PhotoKit:</strong> Accesses photos from your library (with permission)</li>
+                </ul>
+                <p>See <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a> for details.</p>
+
+                <h3>Amazon Web Services (AWS)</h3>
+                <p>We use AWS S3 for secure image storage. AWS complies with industry-standard security certifications. See <a href="https://aws.amazon.com/privacy/" target="_blank">AWS Privacy Policy</a>.</p>
+            </section>
+
+            <section>
+                <h2>Permissions</h2>
+                <p>The App requests the following iOS permissions:</p>
+                <ul>
+                    <li><strong>Camera:</strong> Required to scan menus with your camera</li>
+                    <li><strong>Photo Library:</strong> Required to select existing menu photos</li>
+                    <li><strong>Location (Optional):</strong> To save GPS coordinates with menus</li>
+                    <li><strong>Notifications (Optional):</strong> To alert you when background processing completes</li>
+                </ul>
+                <p>You can manage these permissions at any time in iOS Settings → Big Menu.</p>
+            </section>
+
+            <section>
+                <h2>Children's Privacy</h2>
+                <p>Big Menu is not directed at children under 13. We do not knowingly collect information from children. If you believe a child has used the App, please contact us, and we will delete any associated data.</p>
+            </section>
+
+            <section>
+                <h2>International Users</h2>
+                <p>Big Menu is available worldwide. Your data may be processed and stored on servers located in various countries, including the United States. By using the App, you consent to the transfer of your information to countries that may have different data protection laws than your country of residence.</p>
+            </section>
+
+            <section>
+                <h2>Your Rights and Choices</h2>
+                <p>You have the following rights regarding your data:</p>
+                <ul>
+                    <li><strong>Access:</strong> Request a copy of your stored menu data</li>
+                    <li><strong>Delete:</strong> Remove individual menus or all data from your account</li>
+                    <li><strong>Opt-out:</strong> Disable location services at any time</li>
+                    <li><strong>Data portability:</strong> Export your menu history</li>
+                </ul>
+                <p>To exercise these rights or delete your account, contact us at <a href="mailto:bluespiderlily6@gmail.com">bluespiderlily6@gmail.com</a>.</p>
+
+                <h3>How to Delete Your Data</h3>
+                <ul>
+                    <li><strong>Delete individual menus:</strong> Swipe left on any menu in the app and tap delete</li>
+                    <li><strong>Delete all data:</strong> Contact support to permanently delete all server data</li>
+                    <li><strong>Remove local data:</strong> Uninstall the App to delete locally stored information</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Changes to This Policy</h2>
+                <p>We may update this Privacy Policy from time to time. Material changes will be communicated through:</p>
+                <ul>
+                    <li>Updating the "Last Updated" date at the top</li>
+                    <li>In-app notifications for significant changes</li>
+                    <li>App Store update notes</li>
+                </ul>
+                <p>Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+            </section>
+
+            <section>
+                <h2>Compliance</h2>
+                <p>This privacy policy is designed to comply with:</p>
+                <ul>
+                    <li>General Data Protection Regulation (GDPR)</li>
+                    <li>California Consumer Privacy Act (CCPA)</li>
+                    <li>Apple App Store Guidelines</li>
+                    <li>Children's Online Privacy Protection Act (COPPA)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Contact Us</h2>
+                <p>If you have questions about this Privacy Policy or how we handle your data, please contact us:</p>
+                <p><strong>Email:</strong> <a href="mailto:bluespiderlily6@gmail.com">bluespiderlily6@gmail.com</a></p>
+                <p>We will respond to privacy inquiries within 30 days.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p><a href="support.html">Support</a> | <a href="terms.html">Terms of Service</a> | <a href="../index.html">Home</a></p>
+            <p>&copy; 2024 Big Menu. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
